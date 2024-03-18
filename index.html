@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boot<link rel="shortcut icon" href="img/logo-inatec-2016.png">strap demo</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+  <body data-bs-spy="scroll">
+
+    <!---aqui va el encabezado-->
+
+    <header>
+    <nav data-bs-theme="dark" class="navbar bg-dark navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo-inatec-2016.png" width="50px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Carreras">CARRERAS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Contactanos">CONTACTOS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Ubicacion">UBICACION</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Noticias">NOTICIAS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#inscribiteModal">MATRICULATE AHORA</a>
+              </li>
+
+
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <!---aqui comienza el foteer-->
+
+    <main>
+
+
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade"
+      data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Ignauracion</h2>
+                <p>Ignauracion de laboratorio de computadoras.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Fz40cpYWAAY3MFw.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Practicas ante simulacro</h2>
+              <p>Ensayos para saber que hacer ante una emergencia.</p>
+            </div>  
+          </div>
+          <div class="carousel-item">
+            <img src="img/GGT7PtLW0AAZ3AN.jpg" class="d-block w-100" alt="...">
+      
+            <div class="carousel-caption d-none d-md-block">
+              <h2>reunion</h2>
+              <p>sobre Programa vocacional.</p>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#inscribiteModal" class="btn btn-primary">Inscribete Ya</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+    <!---Aqui va una seccion de contenido-->
+
+
+
+    </main>
+
+    <section id="Carreras">
+
+      <div class="container">
+
+        <div class="row">
+
+            <div class="col text-center tex-uppercase">
+              <small>Conoce acerca de las</small>
+                    <h2>Carreras</h2>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-12 col-lg-4">
+              <div class="card" >
+                <img src="img/CIENCIAS-DE-LA-COMPUTACIÓN-EN-SM.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="badges mb-2 text-center">
+                      <span class="badge text-bg-warning">Sistemas operativos</span>
+
+                    <span class="badge text-bg-warning">Mantenimiento</span>
+                    </div>
+                    <h5 class="card-title tex-uppercase text-center">COMPUTACION</h5>
+                    <p class="card-text">En la carrera aprenderas de sistemas operativos, reparacion y mantenimiento de equipos, instalacion de Software y redes.</p>
+                    
+                  </div>
+                </div>
+          
+            </div>
+
+              <div class="col-12 col-lg-4">
+                <div class="card" >
+                  <img src="img/Lenguajes-programacion.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="badges mb-2 text-center">
+                        <span class="badge text-bg-dark">Bases de datos</span>
+                        <span class="badge text-bg-success">Pagina web</span>
+                        <span class="badge rounded-pill text-bg-info">HTML</span>
+                    
+                      </div>
+                      <h5 class="card-title tex-uppercase text-center">PROGRAMACION</h5>
+                      <p class="card-text">En la carreras aprenderas de diseño web, javacript, bases de datos y desarrollo de sistemas usando bases de datos</p>
+                      
+                    </div>
+                  </div>
+          
+              </div>
+
+                <div class="col-12 col-lg-4">
+                  <div class="card">
+                    <img src="img/banner-destaque.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <div class="badges mb-2 text-center">
+                          <span class="badge text-bg-success">cuchillos </span>
+                          <span class="badge text-bg-danger">postres</span>
+                        
+                        </div>
+                        <h5 class="card-title tex-uppercase text-center">COCINA Y GASTRONOMIA</h5>
+                        <p class="card-text">aqui aprenderas a elaborar postres, la realizacion de diferentes platillos y usando la tecnicas apropiadas.</p>
+                      
+                      </div>
+                    </div>
+              
+                </div>
+
+
+
+                
+
+                    <div class="col-12 col-lg-4">
+                      <div class="card" >
+                        <img src="img/contabilidad-de-empresa.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <div class="badges mb-2 text-center">
+                              <span class="badge text-bg-primary">operaciones contables</span>
+                              <span class="badge text-bg-danger">libro mayor</span>
+                            
+                            </div>
+                            <h5 class="card-title tex-uppercase text-center">CONTABILIDAD</h5>
+                            <p class="card-text">Aqui aprenderemos a realizar asientos contables,libros diarios, cuentas t. para llevar la contabilidad de un negocio o institucion</p>
+                            
+                          </div>
+                        </div>
+                  
+                    </div>
+
+
+
+                    
+
+                      <div class="col-12 col-lg-4">
+                        <div class="card" >
+                          <img src="img/agropecuaria2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <div class="badges mb-2 text-center">
+                                <span class="badge rounded-pill text-bg-secondary">Vacunar vacas</span>
+              
+                                <span class="badge rounded-pill text-bg-info">Info</span>
+                              </div>
+                              <h5 class="card-title tex-uppercase text-center">AGROPECUARIA</h5>
+                              <p class="card-text">aqui aprenderas todo sobre agropecuaria.</p>
+                              
+                            </div>
+                          </div>
+                    
+                        </div>
+        
+        
+
+
+
+          </div>
+      </div>
+
+        
+    </section>
+
+  <!---Aqui va el formulario de  contactanos-->
+    <section id="Contactanos">
+
+              
+      <div class="container">
+              <h2 class="text-center">CONTACTANOS</h2>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+                  <div class="form-floating mb-3">
+                    <input type="nombre" class="form-control" id="nombre" placeholder="Digite su nombre">
+                    <label for="Nombre">Nombre y Apellido</label>
+                    </div>
+          </div>
+                <div class="col-12 col-lg-6">
+                  <div class="form-floating mb-3">
+                    <input type="email "class="form-control" id="correo" placeholder=" Digite su Correo">
+                    <label for="correo">Correo electronico</label>
+                    </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="form-floating mb-3">
+                  <input type="tel" class="form-control" id="form-control" placeholder="Numero">
+                  <label for="Numero">Numero de contacto</label>
+                  </div>
+            </div>
+            
+            <div class="col-12 col-lg-6">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="form-control" placeholder="Digite su carrwra de interes">
+                <label for="Nombre">Carreras de interes</label>
+                </div>
+
+            </div>
+    <div class="col-12">
+      <label class="form-label"  for="mensaje" >mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="5"></textarea>
+
+    </div>
+          
+
+    
+    <div class="col-12 col-lg-6 mt-3"><label class="mb-3" for="">como te contactamos</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          email
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+        <label class="form-check-label" for="flexRadioDefault2">
+          telefono
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          WhatsApp
+        </label>
+      </div>
+
+    </div>
+
+    <div class="col-12 col-lg-6 pt-3">
+      
+      </select><label class="mb-3"  for="">¿Que turno deseas?</label>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>selecione turno</option>
+        <option value="1">Matutino</option>
+        <option value="2">vespertino</option>
+          <option value="1">Nocturno</option>
+          <option value="2">Sabatino</option>
+          <option value="3">Dominical</option>
+        </select>
+
+
+
+    </div>
+
+              <div class="row">
+                <button class="btn btn-primary mt-3" type="button">Enviar formulario</button>
+
+              </div>
+
+
+            </div>
+            </div>
+
+            
+              
+              
+    </section>
+
+
+
+    <!--Aqui tendremos la seccion sobre nosotros-->
+    <section>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col text-center tex-uppercase">
+          <small>Sobre</small>
+                <h2>Nosotros</h2>
+        
+        
+        </div>
+      </div>
+        
+      <div class="row">
+        <div class="col">
+          <div class="row">
+          <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/imagen.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                  <div class="card-body">
+                  <h5 class="card-title">Sobre el Centro</h5>
+                  <p class="card-text">Nuestro centro ofrece una amplia oferta de carreras tecnicas y cursos de capacitacion para todos aquellos protagonistas qu desean capacitarse, contando con servidores a nuestros protagonistas, nos ubicamos costado sur del silais madriz les esperamos para que te formes con nosotros.</p>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+    </div>
+
+    </section>
+
+
+    <!---aqui va el mapa-->
+    <section id="Ubicacion">
+      <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center">UBICACION</h2>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-12 col-lg-6 offset-lg-3 text-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.863350119727!2d-86.58713002407089!3d13.482516803469327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f71dfd6db8986ad%3A0x463698978fb5ee04!2sCentro%20Tecnol%C3%B3gico%20Che%20Guevara%2C%20Somoto.!5e0!3m2!1ses-419!2sni!4v1710511736293!5m2!1ses-419!2sni" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            </div>
+        </div>
+      </div>
+    </section>
+   
+    <!---aqui va el seccion de noticia-->
+   <section id="Noticias">
+    <div class="container">
+      <div class="row">
+          <div class="col-12 text-center">
+            <h2>noticias del centro</h2>
+          </div>
+        <div class="col-12 col-lg-4 ">
+            <iframe class="text-center" width="430" height="315" src="https://www.youtube.com/embed/qJTTMENEw3s?si=mVnAXRJcVxVmPE29" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 " style="margin-right:auto;">
+        <iframe width="430" height="315" src="https://www.youtube.com/embed/akhINhstl80?si=hjCguavaXrA-mr7p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="col-12 col-lg-4" style="margin-right: auto;">
+          <iframe width="430" height="315" src="https://www.youtube.com/embed/vUd9G9R0CUc?si=QckZof1LnsucfWZp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-----aqui esta el footer-->
+
+      <footer>
+       
+      <div class="container text-center">
+          <div class="row pt-3 pb-2">
+              <div class="col">
+              <a href="">Contactanos</a>
+              </div>
+              <div class="col">
+                  <a href="">Carreras</a>
+              </div>
+              <div class="col">
+                  <a href=""data-bs-toggle="modal" data-bs-target="#inscribiteModal">Matriculate</a>
+              </div>
+              <div class="col">
+                  <a href="">Noticias</a>
+              </div>
+              <div class="col">
+                  <a href="">Sobre Nosotros</a>
+              </div>
+          </div>
+                  <div class="row">
+                      <div class="col-12">
+                          <p>&copy;Derechos reservados INATEC Che Guevara</p>
+                      </div>
+              </div>
+            </div>
+      
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- Button trigger modal -->
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="inscribiteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Inscribite Ahora</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="col-12">
+          <div class="form-floating mb-3">
+            <input type="email "class="form-control" id="correo" placeholder=" Digite su Correo">
+            <label for="correo">Nombre</label>
+            </div>
+      </div>
+      <div class="col-12">
+        <div class="form-floating mb-3">
+          <input type="email "class="form-control" id="correo" placeholder=" Digite su Correo">
+          <label for="correo">Apellido</label>
+          </div>
+    </div>
+    <div class="col-12">
+      <div class="form-floating mb-3">
+        <input type="email "class="form-control" id="correo" placeholder=" Digite su Correo">
+        <label for="correo">Edad</label>
+        </div>
+  </div>
+  <div class="col-12">
+    <div class="form-floating pt-3">
+    <select class="form-select" aria-label="Default select example">
+      <option selected>selecione carrera</option>
+      <option value="1">Computacion</option>
+      <option value="2">Programacion</option>
+        <option value="1">Gastronomia</option>
+        <option value="2">Contabilidad</option>
+        <option value="3">Agropecuaria</option>
+      </select>
+      </div>
+</div>
+
+      </div>
+      <div class="diseño">
+      <div class="modal-footer">
+        <button type="button" class="btn btn-black" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Enviar formulario</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  </body>
+</html>
